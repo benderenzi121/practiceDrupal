@@ -1,0 +1,5 @@
+loremipsum.form:
+  title: 'Movies api URL and Token'
+  description: 'Configure URL and token for movies API.'
+  route_name: movie_directory.api_config_page
+  parent: 'system.admin_config_development'
