@@ -9,6 +9,7 @@ return array(
     'phpowermove\\docblock\\' => array($vendorDir . '/phpowermove/docblock/src'),
     'phootwork\\lang\\' => array($vendorDir . '/phootwork/lang'),
     'phootwork\\collection\\' => array($vendorDir . '/phootwork/collection'),
+    'Twilio\\' => array($vendorDir . '/twilio/sdk/src/Twilio'),
     'Twig\\' => array($vendorDir . '/twig/twig/src'),
     'Symfony\\Polyfill\\Php81\\' => array($vendorDir . '/symfony/polyfill-php81'),
     'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),

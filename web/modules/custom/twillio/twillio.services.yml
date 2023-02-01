@@ -1,0 +1,4 @@
+services: 
+  twillio.api_connector:
+    class: Drupal\twillio\Service\TwillioAPIConnector
+    arguments: ['@http_client_factory']

@@ -35,6 +35,7 @@ class ComposerStaticInitaa717596cea859ad90b985c78a2c6d83
         ),
         'T' => 
         array (
+            'Twilio\\' => 7,
             'Twig\\' => 5,
         ),
         'S' => 
@@ -148,6 +149,10 @@ class ComposerStaticInitaa717596cea859ad90b985c78a2c6d83
         'phootwork\\collection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phootwork/collection',
+        ),
+        'Twilio\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twilio/sdk/src/Twilio',
         ),
         'Twig\\' => 
         array (

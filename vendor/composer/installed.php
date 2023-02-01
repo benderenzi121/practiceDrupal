@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'drupal/recommended-project',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '8cd4b142e5ada53885082b6419c4b7cfa95a2b58',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -335,9 +335,9 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '8cd4b142e5ada53885082b6419c4b7cfa95a2b58',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -523,8 +523,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.1|2.0',
-                1 => '^1.0',
+                0 => '^1.0',
+                1 => '1.1|2.0',
             ),
         ),
         'psr/event-dispatcher' => array(
@@ -923,6 +923,15 @@
             'reference' => '3ffcf4b7d890770466da3b2666f82ac054e7ec72',
             'type' => 'library',
             'install_path' => __DIR__ . '/../twig/twig',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'twilio/sdk' => array(
+            'pretty_version' => '6.44.2',
+            'version' => '6.44.2.0',
+            'reference' => 'deec3203857387213825e2634c4eb4b56880877a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../twilio/sdk',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
