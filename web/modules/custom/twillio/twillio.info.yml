@@ -1,0 +1,5 @@
+name: Twillio
+type: module
+description: 'connects us to the twillio database and allows us to hit endpoints of their api'
+package: CustomModules
+core_version_requirement: ^8 || ^10

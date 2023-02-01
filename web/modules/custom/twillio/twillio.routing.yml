@@ -1,0 +1,8 @@
+twillio.hello: 
+  path: '/twillio/{test}'
+  defaults: 
+    _controller: '\Drupal\twillio\Controller\TwillioController::view'
+    _title: 'twillio home page'
+
+  requirements:
+    _permission: 'access-content'
