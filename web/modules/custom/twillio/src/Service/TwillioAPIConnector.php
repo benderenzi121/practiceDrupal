@@ -4,15 +4,17 @@
     use Drupal;
     use Twilio\Exceptions\TwilioException;
     use Twilio\Rest\Client;
+    use Drupal\Core\Site\Settings;
 
     class TwillioAPIConnector{
     protected $twillioClient;
 
         public function verifyNumber($phone_number){
+            
             $data = [];
-            $sid = 'AC91121581a65a14958ee7521f8576a3a5';
-            $token = 'a4b839291fd88eb187b22d31364a16ac';
 
+            $sid = Drupal::config('twillio.settings')->get('TWILLIO_SID');
+            $token = Drupal::config('twillio.settings')->get('TWILLIO_AUTH_TOKEN');
 
             $twillioClient = new Client($sid, $token);
         try {
@@ -27,7 +29,6 @@
         }
         return $data;
         }
-
-       
+  
     }
 ?> 
