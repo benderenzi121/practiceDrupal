@@ -13,5 +13,5 @@ $databases['default']['default'] = array (
 );
 $settings['hash_salt'] = 'XhddcCKu9kYOU-04Gr6di2DpdZSuG0CwrCvKe6xbC72pwVMIZCvjquDgRReZ7e8QsSwyL_rIeg';
 $settings['config_sync_directory'] = 'sites/default/files/config_Qf6kE1tzDTIfX-CQzW4l91Pw4tNHZG_-UOUptOd4H7HN8PLHsxZp5EhAYE6x4jZu1eNt9XoJOQ/sync';
-$config['twillio.settings']['TWILLIO_AUTH_TOKEN'] = 'b8354351d90a2ae97654afa669b86230';
-$config['twillio.settings']['TWILLIO_SID'] = 'AC91121581a65a14958ee7521f8576a3a5';
+$config['twillio.settings']['TWILLIO_AUTH_TOKEN'] = '';
+$config['twillio.settings']['TWILLIO_SID'] = '';
