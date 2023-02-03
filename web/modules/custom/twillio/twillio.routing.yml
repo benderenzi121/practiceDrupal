@@ -1,5 +1,5 @@
 twillio.hello: 
-  path: '/twillio/{test}'
+  path: '/twillio/{phone_number}'
   defaults: 
     _controller: '\Drupal\twillio\Controller\TwillioController::view'
     _title: 'twillio home page'
