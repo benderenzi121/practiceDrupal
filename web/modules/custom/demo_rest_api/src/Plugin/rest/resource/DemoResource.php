@@ -22,7 +22,6 @@ class DemoResource extends ResourceBase{
    * Responds to entity GET requests.
    * @return \Drupal\rest\ResourceResponse
    */
-  
   public function get($test) {
     $response = ['message' => 'Hello, this is a rest service'];
     return new ResourceResponse($response.$test);
