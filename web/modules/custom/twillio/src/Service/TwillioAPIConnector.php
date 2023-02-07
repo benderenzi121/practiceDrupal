@@ -85,10 +85,9 @@
             throw $e;
             }
         catch(\GuzzleHttp\Exception\RequestException $e){
-            watchdog_exception('twillio',$e, $e->getMessage());
+            watchdog_exception('twillio',$e,$e->getMessage());
         }
-
-        return ($validation->carrier['type'] == 'mobile') ? new Response('202') : new Response('400');
+        return $validation->carrier['type'];
     }
     }
 ?> 

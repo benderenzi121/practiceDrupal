@@ -9,7 +9,7 @@ class TwillioController extends ControllerBase {
     public function view($phone_number){
         $valid = $this->verifyNumber($phone_number);
 
-
+      
         $phone_number_data = array(
             'valid' => $valid -> valid,
             'countryCode' => $valid -> countryCode
@@ -47,7 +47,6 @@ class TwillioController extends ControllerBase {
     public function verifySms($phone_number){
         $twillio_connector_service = \Drupal::Service(id: 'twillio.api_connector');
         $response = $twillio_connector_service->verifySms($phone_number);
-        // dump($response . ' in verify sms (controller)');
         if(!empty($response)){
             return $response;
         } else {
