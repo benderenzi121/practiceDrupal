@@ -1,4 +1,4 @@
-name: Twillio
+name: smsValidation
 type: module
 description: 'connects us to the twillio database and allows us to hit endpoints of their api'
 package: Custom

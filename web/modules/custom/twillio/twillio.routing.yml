@@ -1,8 +1,0 @@
-twillio.hello: 
-  path: '/twillio/{phone_number}'
-  defaults: 
-    _controller: '\Drupal\twillio\Controller\TwillioController::view'
-    _title: 'twillio home page'
-
-  requirements:
-    _permission: 'access-content'

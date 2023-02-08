@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\twillio\Plugin\rest\resource;
+namespace Drupal\smsValidation\Plugin\rest\resource;
 
 use Drupal\rest\Plugin\ResourceBase;
 
