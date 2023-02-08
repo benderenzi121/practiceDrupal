@@ -63,11 +63,13 @@ class ValidatorResource extends ResourceBase {
         ];
         return new ResourceResponse($non_us_error, 400);
       }
-      // Ensures nothing got past the previous checks (kind of redundant should possibly remove?)
+      // Ensures nothing got past the previous checks.
+      // (Kind of redundant should possibly remove?)
       if ($phone_number_data['valid'] == TRUE && $phone_number_data['countryCode'] == 'US') {
 
         // Calls to the verify SMS function of the twilio service.
-        // this is a paid request that Looks for mobile carrier information and returns it.
+        // This is a paid request that Looks for mobile carrier information
+        // And returns it.
         $result = $twillio_connector_service->verifySms($phoneNumber);
         if ($result === 'mobile') {
           // Good response for mobile numbers.
